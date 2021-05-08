@@ -27,13 +27,3 @@ The refactored code runs faster. For this data set, the difference was not major
 The refactored code requires that the data in each worksheet already be sorted by Ticker symbol and by date. If the data were unsorted, the code would not work. Code for adding sorting could be added but would add to execution time as sorting is a computation-intensive operation. 
 The refactored code also only allows for the 12 stocks included in the array definition. If another stock were considered, a programmer would have to modify the code to include the new symbols. In this sense, the code is not very robust as it is not as useful as it could be in a variety of input situations.
 Both of these disadvantages occurred in the original VBA code. 
-
-
-
-
-
-
-
-Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
-
-
